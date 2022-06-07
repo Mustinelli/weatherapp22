@@ -7,8 +7,10 @@ function LocationDetails(props) {
     return <h1>{'${city}, ${country}'}</h1>;
 }
 
-export default LocationDetails;
+
 LocationDetails.propTypes = {
     city: Proptypes.string.isRequired,
     country: Proptypes.string.isRequired
 };
+
+export default LocationDetails;
